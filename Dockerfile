@@ -19,9 +19,6 @@ WORKDIR /usr/src/whatsmyip
 # Copy the statically-linked binary from the build stage
 COPY --from=build /usr/src/whatsmyip/target/release/whatsmyip .
 
-# Expose any necessary ports (if your Rust application listens on a specific port)
-EXPOSE 8000
-
 # Specify the command to run your Rust application
 CMD ["./whatsmyip"]
 
