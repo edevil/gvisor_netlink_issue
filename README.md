@@ -19,3 +19,9 @@
     Starting
     Crashing....
     Or not!
+
+    # with gvisor but without setting the max log level
+    $ docker run --rm --runtime=runsc crash
+    Starting
+    Crashing....
+    Or not!
