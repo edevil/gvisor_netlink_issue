@@ -4,6 +4,10 @@
 
     docker build . -t crash
 
+## Setting up gvisor
+
+<https://gvisor.dev/docs/user_guide/install/#install-latest>
+
 ## Running
 
     # with gvisor

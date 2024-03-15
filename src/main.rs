@@ -9,7 +9,7 @@ use neli::types::RtBuffer;
 
 fn main() {
     println!("Starting");
-    log::set_max_level(log::Level::max().to_level_filter()); // somehow this global variable change triggers the behaviour
+    log::set_max_level(log::Level::max().to_level_filter());
     println!("Crashing....");
     local_ip_impl();
     println!("Or not!");
